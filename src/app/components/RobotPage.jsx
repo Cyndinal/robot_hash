@@ -8,7 +8,7 @@ const RobotPage = ({robots})=>{
     return(
 
 
-        <div className={'overflow-y-auto h-80 px-3 p-4 items-center justify-center grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4'}>
+        <div className={'mt-12 space-x-2 p-4 items-center justify-center grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4'}>
             {robots.map((robot,index) => {
                 return(
                     <div key={index}
