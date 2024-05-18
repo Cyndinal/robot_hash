@@ -20,10 +20,6 @@ export default function Home() {
     <main className="bg-gradient-to-r from-yellow-200 to-blue-500">
 
         <SearchBox onSearchChange={handleSearch} SearchField = {searchRobot}/>
-        <div className={''}></div>
-        <div></div>
-
-
         <RobotPage robots={filteredRobots} />
 
     </main>

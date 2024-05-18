@@ -19,7 +19,7 @@ const SearchBox = ({onSearchChange, SearchField}) => {
                            onChange={onSearchChange}
                     />
                 </div>
-                <div></div>
+
 
             </header>
 
