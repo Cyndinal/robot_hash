@@ -9,7 +9,7 @@ const Card = (props) => {
                 <h3 className={'flex justify-center items-center text-ellipsis font-semibold  '}>
                     {name}
                 </h3>
-                <h4 className={'flex  justify-center items-center '}>{(email.length > 10 && innerWidth < 400) ? email.slice(0, 10) + '...' : email}</h4>
+                <h4 className={'flex  justify-center items-center '}>{(email.length > 10 ) ? email.slice(0, 10) + '...' : email}</h4>
             </>
     )
 }
