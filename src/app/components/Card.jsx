@@ -3,7 +3,6 @@ import Image from "next/image";
 const Card = (props) => {
     const {email, name} = props
     const url =   `https://robohash.org/${name}`
-
     return(
         <>
                 <Image priority src={url} alt={'robotInfo'} width={400} height={200}/>

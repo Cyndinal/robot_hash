@@ -17,7 +17,7 @@ export default function Home() {
           (robot.name.toLowerCase() || robot.id.toString()).includes(searchRobot.toLowerCase()));
 
   return (
-    <main className="bg-gradient-to-r from-yellow-200 to-blue-500">
+    <main className="bg-gradient-to-r from-yellow-100 to-blue-300">
 
         <SearchBox onSearchChange={handleSearch} SearchField = {searchRobot}/>
         <RobotPage robots={filteredRobots} />
